@@ -1,7 +1,15 @@
 [package]
 name = "evcode"
 version = "0.2.0"
+authors = ["Emil Poghosyan <poghoosyann@gmail.com>"]
 edition = "2021"
+description = "A high-performance terminal IDE with Ghost Snap for secure and fast coding sessions."
+license = "MIT"
+homepage = "https://products.eeive.com"
+repository = "https://github.com/poghdev/Evcode-ide"
+documentation = "https://github.com/poghdev/Evcode-ide#readme"
+keywords = ["ide", "terminal", "tui", "rust", "editor"]
+categories = ["development-tools", "command-line-utilities"]
 
 [[bin]]
 name = "evcode"
