@@ -11,17 +11,35 @@ jobs:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        os: [ubuntu-latest, windows-latest, macos-latest]
+        include:
+          - os: ubuntu-latest
+            artifact_name: evcode
+            asset_name: evcode-linux
+          - os: windows-latest
+            artifact_name: evcode.exe
+            asset_name: evcode.exe
+          - os: macos-latest
+            artifact_name: evcode
+            asset_name: evcode-macos
 
     steps:
       - uses: actions/checkout@v4
+
       - name: Install Rust
         uses: dtolnay/rust-toolchain@stable
+
       - name: Build release
         run: cargo build --release
+
+      - name: Prepare assets
+        shell: bash
+        run: |
+          cd target/release
+          mv ${{ matrix.artifact_name }} ${{ matrix.asset_name }}
+
       - name: Upload Artifacts
         uses: softprops/action-gh-release@v1
         with:
-          files: |
-            target/release/evcode
-            target/release/evcode.exe
+          files: target/release/${{ matrix.asset_name }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
