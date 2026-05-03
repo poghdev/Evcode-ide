@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/evcode-logo.jpg" alt="Evcode Logo" width="200">
+</p>
+
 # 🌑 Evcode IDE (English)
 
 Evcode is a high-performance terminal development environment (IDE) built with Rust for those who value speed, minimalism, and reliability. The project focuses on efficient workflow through the terminal using modern TUI capabilities.
