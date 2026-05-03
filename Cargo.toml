@@ -1,0 +1,23 @@
+[package]
+name = "evcode"
+version = "0.2.0"
+edition = "2021"
+
+[[bin]]
+name = "evcode"
+path = "src/main.rs"
+
+[dependencies]
+ratatui        = "0.29"
+crossterm      = "0.28"
+tui-textarea   = { version = "0.7", features = ["crossterm", "search"] }
+serde          = { version = "1", features = ["derive"] }
+serde_json     = "1"
+walkdir        = "2"
+dirs           = "5"
+anyhow         = "1"
+tokio          = { version = "1", features = ["full"] }
+
+[dependencies.arboard]
+version = "3.4"
+default-features = true
