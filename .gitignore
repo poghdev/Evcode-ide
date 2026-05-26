@@ -1,0 +1,8 @@
+.env
+target/
+evcode/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp

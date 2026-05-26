@@ -1,0 +1,35 @@
+[package]
+name = "evcode"
+version = "1.0.0"
+authors = ["Emil Poghosyan <poghoosyann@gmail.com>"]
+edition = "2021"
+description = "A high-performance terminal IDE."
+license = "MIT"
+homepage = "https://products.eeive.com/evcode.html"
+repository = "https://github.com/poghdev/Evcode-ide"
+documentation = "https://github.com/poghdev/Evcode-ide#readme"
+keywords = ["ide", "terminal", "tui", "rust", "editor"]
+categories = ["development-tools", "command-line-utilities"]
+
+[[bin]]
+name = "evcode"
+path = "src/main.rs"
+
+[dependencies]
+ratatui        = "0.29"
+crossterm      = "0.28"
+ropey          = "1.6"
+serde          = { version = "1", features = ["derive"] }
+serde_json     = "1"
+walkdir        = "2"
+dirs           = "5"
+anyhow         = "1"
+tokio          = { version = "1", features = ["full"] }
+unicode-segmentation = "1"
+unicode-width  = "0.1"
+parking_lot    = "0.12"
+which          = "6"
+
+[dependencies.arboard]
+version = "3.4"
+default-features = true
