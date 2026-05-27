@@ -27,7 +27,47 @@ Evcode объединяет отзывчивость терминальных р
 
 Evcode создаётся вокруг минималистичного workflow и остаётся лёгкой, сохраняя при этом инструменты для реальной разработки.
 
----
+# Примеры
+
+## Домашний экран
+
+<p align="center">
+  <img src="assets/examples/home.png" alt="Главный экран Evcode" width="1000">
+</p>
+
+## Рабочее пространство редактора
+
+<p align="center">
+  <img src="assets/examples/one.png" alt="Интерфейс редактора" width="1000">
+</p>
+
+## Дерево файлов
+
+<p align="center">
+  <img src="assets/examples/two.png" alt="Дерево файлов" width="1000">
+</p>
+
+## Навигация
+
+<p align="center">
+  <img src="assets/examples/three.png" alt="Навигация по проекту" width="1000">
+</p>
+
+## Снимок (Snapshot)
+
+<p align="center">
+  <img src="assets/examples/four.png" alt="Ghost Snapshot" width="1000">
+</p>
+
+## Терминал
+
+<p align="center">
+  <img src="assets/examples/five.png" alt="Встроенный терминал" width="1000">
+</p>
+
+<p align="center">
+  <i>Evcode в работе внутри терминала</i>
+</p>
 
 # Почему Evcode?
 
@@ -287,48 +327,6 @@ Evcode строится вокруг нескольких идей:
 - Terminal UI rendering
 
 ---
-
-# Примеры
-
-## Домашний экран
-
-<p align="center">
-  <img src="assets/examples/home.png" alt="Главный экран Evcode" width="1000">
-</p>
-
-## Рабочее пространство редактора
-
-<p align="center">
-  <img src="assets/examples/one.png" alt="Интерфейс редактора" width="1000">
-</p>
-
-## Дерево файлов
-
-<p align="center">
-  <img src="assets/examples/two.png" alt="Дерево файлов" width="1000">
-</p>
-
-## Навигация
-
-<p align="center">
-  <img src="assets/examples/three.png" alt="Навигация по проекту" width="1000">
-</p>
-
-## Снимок (Snapshot)
-
-<p align="center">
-  <img src="assets/examples/four.png" alt="Ghost Snapshot" width="1000">
-</p>
-
-## Терминал
-
-<p align="center">
-  <img src="assets/examples/five.png" alt="Встроенный терминал" width="1000">
-</p>
-
-<p align="center">
-  <i>Evcode в работе внутри терминала</i>
-</p>
 
 # License
 

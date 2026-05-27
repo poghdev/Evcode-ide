@@ -27,7 +27,47 @@ Evcode combines the responsiveness of terminal editors with IDE-level functional
 
 Designed around a minimal workflow, Evcode stays lightweight while still giving you powerful tools for real development.
 
----
+# Examples
+
+## Home Screen
+
+<p align="center">
+  <img src="assets/examples/home.png" alt="Evcode Home" width="1000">
+</p>
+
+## Editor Workspace
+
+<p align="center">
+  <img src="assets/examples/one.png" alt="Editor Interface" width="1000">
+</p>
+
+## File Tree
+
+<p align="center">
+  <img src="assets/examples/two.png" alt="File Tree" width="1000">
+</p>
+
+## Navigation
+
+<p align="center">
+  <img src="assets/examples/three.png" alt="Workspace Navigation" width="1000">
+</p>
+
+## Snapshot
+
+<p align="center">
+  <img src="assets/examples/four.png" alt="Snapshot" width="1000">
+</p>
+
+## Terminal
+
+<p align="center">
+  <img src="assets/examples/five.png" alt="Integrated Terminal" width="1000">
+</p>
+
+<p align="center">
+  <i>Evcode running inside the terminal</i>
+</p>
 
 # Why Evcode?
 
@@ -287,48 +327,6 @@ The goal is to stay fast.
 - Terminal UI rendering
 
 ---
-
-# Examples
-
-## Home Screen
-
-<p align="center">
-  <img src="assets/examples/home.png" alt="Evcode Home" width="1000">
-</p>
-
-## Editor Workspace
-
-<p align="center">
-  <img src="assets/examples/one.png" alt="Editor Interface" width="1000">
-</p>
-
-## File Tree
-
-<p align="center">
-  <img src="assets/examples/two.png" alt="File Tree" width="1000">
-</p>
-
-## Navigation
-
-<p align="center">
-  <img src="assets/examples/three.png" alt="Workspace Navigation" width="1000">
-</p>
-
-## Snapshot
-
-<p align="center">
-  <img src="assets/examples/four.png" alt="Snapshot" width="1000">
-</p>
-
-## Terminal
-
-<p align="center">
-  <img src="assets/examples/five.png" alt="Integrated Terminal" width="1000">
-</p>
-
-<p align="center">
-  <i>Evcode running inside the terminal</i>
-</p>
 
 # License
 
